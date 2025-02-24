@@ -1,0 +1,35 @@
+server sent request and fetch the data : 
+{
+  Title: 'Batman Ninja',
+  Year: '2018',
+  Rated: 'PG-13',
+  Released: '24 Apr 2018',
+  Runtime: '85 min',
+  Genre: 'Animation, Action, Sci-Fi',
+  Director: 'Junpei Mizusaki',
+  Writer: 'Kazuki Nakashima, Leo Chu, Eric Garcia',
+  Actors: 'Ahnaf, Kôichi Yamadera, Wataru Takagi',
+  Plot: 'Batman, along with a number of his allies and adversaries, finds himself transplanted from modern Gotham City to feudal Japan.',
+  Language: 'Japanese, English',
+  Country: 'Japan, United States',
+  Awards: '2 nominations total',
+  Poster: 'https://m.media-amazon.com/images/M/MV5BNjdhMGVhMjEtNzgyZC00ZGNiLWFkN2QtNjdmNTg2MzVjOTMwXkEyXkFqcGc@._V1_SX300.jpg',
+  Ratings: [
+    { Source: 'Internet Movie Database', Value: '5.6/10' },
+    { Source: 'Rotten Tomatoes', Value: '82%' }
+  ],
+  Metascore: 'N/A',
+  imdbRating: '5.6',
+  imdbVotes: '22,563',
+  imdbID: 'tt7451284',
+  Type: 'movie',
+  DVD: 'N/A',
+  BoxOffice: 'N/A',
+  Production: 'N/A',
+  Website: 'N/A',
+  Response: 'True'
+}
+process the Title of Movie :
+Title: Batman Ninja
+Process the Year of Movie :
+Year: 2018
