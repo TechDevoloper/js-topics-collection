@@ -1,0 +1,49 @@
+1. What is the difference between async/await and Promises?
+Answer: async/await is built on top of Promises, but it offers a cleaner, more readable syntax for working with asynchronous operations.
+
+Promises use .then() and .catch() for chaining and error handling.
+async/await allows asynchronous code to be written in a synchronous style, with await pausing the function execution until the Promise resolves and async indicating that the function is asynchronous.
+
+Company Example: Asked in Google interview.
+
+
+2. What happens if you forget to use await in an async function?
+Answer: If you forget to use await inside an async function, the function will return a Promise immediately instead of the expected result. The function will still execute asynchronously, 
+but you'll need to handle the Promise using .then() or .catch() to get the value.
+
+---Asked In Amazon Interview
+
+
+3. How does error handling work in async/await?
+Answer: Error handling in async/await is done using the try/catch block. Any error that occurs during an asynchronous operation is caught by the catch block.
+
+---Asked In Micrsoft Interview
+
+4. Can you explain setTimeout() in Promises?
+Answer: Using setTimeout() with promises allows you to delay an operation by wrapping it in a Promise. This is useful for delaying or simulating asynchronous tasks.
+---- Asked In Uber Interview
+
+5.How does async function behave if a Promise is not returned?
+Answer: If an async function does not return a Promise explicitly, it automatically wraps the return value in a Promise.resolve(). So, you can return non-Promise values from async functions, and they will be resolved as a promise.
+
+--Asked In Linkedin Interview
+
+6.what are async functions and how do they improve handling of asynchronous code?
+Answer: async functions allow you to write asynchronous code using a synchronous-like syntax. The await keyword pauses the execution of the function until the promise resolves, allowing you to avoid callback hell and making the code more readable.
+
+---Asked in Airbnb
+
+
+
+Summary of Companies and Topics:
+Google: Difference between async/await and Promises.
+Amazon: Forgetting await in an async function.
+Facebook: Usage of Promise.all().
+Microsoft: Error handling in async/await.
+Apple: Promise.race() usage.
+Uber: setTimeout() with Promises.
+Netflix: Promise.allSettled().
+LinkedIn: Return behavior of async functions.
+Stripe: Difference between Promise.resolve() and Promise.reject().
+Airbnb: General understanding of async/await for asynchronous code.
+
